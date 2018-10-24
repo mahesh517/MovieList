@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MovieList</string>
+    <string name="popular">Popular Movies</string>
+
+    <string name="budget">Budget</string>
+    <string name="revenue">Revenue</string>
+</resources>
