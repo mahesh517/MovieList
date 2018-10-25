@@ -24,10 +24,12 @@
         <activity android:name=".MainActivity" />
         <activity
             android:name=".Activities.MovieListActivity"
-            android:label="@string/popular" />
+            android:label="@string/popular"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".Activities.MovieDetailsActivity"
-            android:label="" />
+            android:label=""
+            android:theme="@style/AppTheme" />
         <activity android:name=".BaseClass.BaseActivity"></activity>
     </application>
 

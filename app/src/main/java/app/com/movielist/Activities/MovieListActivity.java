@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
 
 import java.util.List;
 
@@ -81,5 +83,11 @@ public class MovieListActivity extends BaseActivity {
             dismiss_progress();
             Log.e("Exception", e.getMessage());
         }
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.list_menu, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 }
